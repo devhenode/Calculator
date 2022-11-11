@@ -1,0 +1,105 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #242424;
+}
+
+.container {
+    display: block;
+    background-color: black;
+    color: white;
+    margin: 50px auto;
+    /* padding-left: 5px; */
+    width: 320px;
+    height: 500px;
+    border-radius: 20px;
+}
+
+.display {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding-right: 10px;
+    height: 25%;
+    width: 100%;
+    background-color: black;
+    border-radius: 20px;
+}
+
+.display h3 {
+    font-family: monospace, sans-serif;
+    font-weight: 400;
+    font-size: 50px;
+}
+
+.characters {
+    position: relative;
+    background-color: rgba(31, 29, 29, 0.568);
+    height: 75%;
+    /* margin-top: 0%;
+    margin-bottom: 8px;
+    margin-left: 8px;
+    margin-right: 8px; */
+    padding: 10px;
+    border-radius: 20px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.first, .second, .third, .fourth, .fifth {
+    display: flex;
+    /* font-size: 25px; */
+}
+
+.first h4 {
+    background-color: lightgray;
+    color: black;
+}
+
+h4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(27, 26, 26, 0.582);
+    font-family: monospace, sans-serif;
+    font-weight: 400;
+    margin: 8px 12px  10px;
+    width: 50px;
+    height: 50px;
+    /* padding: 15px; */
+    border-radius: 50%;
+    color: white;
+    font-size: 30px;
+}
+
+h4:hover {
+    background-color: rgb(112, 111, 111);
+    cursor: pointer;
+}
+
+.fifth .zero {
+    width: 130px;
+    border-radius: 25px;
+}
+
+.vertical-sixth {
+    /* display: grid; */
+    font-size: 25px;
+    position: absolute;
+    right: 14px;
+    top: 10px;
+}
+
+.vertical-sixth h4 {
+   margin-bottom: 18px;
+    background-color: rgb(255, 105, 19);
+}
+
+.vertical-sixth h4:hover {
+    background-color: rgba(255, 106, 19, 0.712);
+    cursor: pointer;
+}
